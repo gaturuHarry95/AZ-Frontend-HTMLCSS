@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption {
+            color: #333;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin-left: 45px;
+            border: #336 solid 3px;
+        }
+
+        th{
+            background-color:greenyellow;
+           
+        }
+        td{
+            background-color: antiquewhite;
+            color: #333333;
+            font-size: 14px;
+        }
+
+        th,td{
+            text-align: center;
+            padding: 15px;
+        }
+        td:hover{
+            background-color:brown;
+        }
+    </style>
+    
+</head>
+
+<body>
+   <table border="1" >
+    <!--caption provides a title for the table-->
+    <caption>Students Details</caption>
+    <thead>
+    <tr>
+        <th>Fullname</th>
+        <th>City</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Harry</td>
+        <td>Nairobi</td>
+        <td>28yrs</td>
+    </tr>
+    <tr>
+        <td>Ann</td>
+        <td rowspan="2">Mombasa</td>
+        <td>25yrs</td>
+    </tr>
+    <tr>
+        <td>Naomi</td>
+        
+        <td>26yrs</td>
+    </tr>
+    
+    <tr>
+        <td>John</td>
+        <td>Kisumu</td>
+        <td>29yrs</td>
+    </tr>
+</tbody>
+    <tfoot>
+        <th colspan="2">Total Ages</th>
+        <td>108</td>
+    </tfoot>
+   </table>
+    
+</body>
+</html>
