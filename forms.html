@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User information</title>
+</head>
+<body>
+    <h1>User Information Details</h1>
+    <form autocomplete="off" validate>
+    <fieldset>
+        <legend>Personal Information:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user-name" required  value="John Doe" ><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user-email" required value="johndoe@gmail.com"><br><br>
+        <label for="address">Address:</Address></label>
+        <input type="text" id="address" name="user-address" placeholder="Enter your current address"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="user-age" max="50" min="18"><br><br>
+        <label for="phone-number">Phone Number:</label>
+        <input type="number" id="phone-number" name="user-phone-number"><br><br>
+        <label for="D.O.B">Date of Birth:</label>
+        <input type="date" id="D.O.B" name="user-D.O.B"><br><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option>Kenya</option>
+            <option>Uganda</option>
+            <option>South Africa</option>
+            <option selected>Ghana</option>
+            <option>Nigeria</option>
+            <option>Ethiopia</option>
+            <option>Other</option>
+        </select>
+    </fieldset><br>
+<fieldset>
+        <legend>What are your Interests? </legend>
+        <input type="checkbox" id="coding" name="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="reading" name="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="Gaming" name="Gaming">
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="swimming" name="swimming">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" id="travelling" name="travelling">
+        <label for="travelling">Travelling</label>
+</fieldset><br>
+<fieldset>
+    <legend>What is Your Gender?</legend>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender">
+        
+    </fieldset><br>
+
+    
+        <textarea name="message" cols="40" rows="5" placeholder="Enter additional comments or feedback"></textarea><br><br>
+        <button type="submit">Submit</button>
+   
+    </form>
+
+
+</body>
+</html>
