@@ -1,0 +1,15 @@
+.heading{
+    background-color: bisque;
+}
+
+ul{
+    border: 1px solid;
+    padding: 10px;
+    color: chocolate;
+    font-weight:500px ;
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: cadetblue;
+}
